@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import './index.css';
 
 
 export default function Index() {
@@ -10,10 +10,10 @@ export default function Index() {
             </h1>
 
             <ul>
-                <li> <Link to='/corprimaria'> Cor Primária </Link> </li>
-                <li> <Link to='/frequencia'> Frequência </Link> </li>
-                <li> <Link to='/ingresso'> Ingresso </Link> </li>
-                <li> <Link to='/maiornumero'> Maior Número </Link> </li>
+                <li> <Link to='/semaforo'> Semáforo </Link> </li>
+                <li> <Link to='/sequenciapar'> Sequencia Par </Link> </li>
+                <li> <Link to='/fatorial'> Fatorial </Link> </li>
+                <li> <Link to='/diasemana'> Dia da Semana </Link> </li>
                 
             </ul>
             
